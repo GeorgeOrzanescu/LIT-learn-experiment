@@ -9,3 +9,6 @@ Invoked when a component is removed from the document's DOM.
 This callback is the main signal to the element that it may no longer be used; as such, disconnectedCallback() should ensure that nothing is holding a reference to the element (such as event listeners added to nodes external to the element), so that it is free to be garbage collected.
 
 See: [lit-component-lifecycle](./src/elements/lit-component-lifecycle.ts)
+
+Note* there are more useful methods on the 
+[official documentation](https://lit.dev/docs/components/lifecycle/#lit-behavior-3)
