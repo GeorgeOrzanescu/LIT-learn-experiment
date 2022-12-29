@@ -1,11 +1,14 @@
 import {LitElement, html, TemplateResult} from "lit";
-import {customElement, state} from "lit/decorators.js"
+import {customElement, property} from "lit/decorators.js"
 
 @customElement("input-counter")
 class InputCounter extends LitElement {
 
-    @state()
+    @property({type: Number})
     counter: number = 0;
+
+    // @state()
+    // counter: number = 0;
 
     render(): TemplateResult {
         return html`
@@ -24,5 +27,4 @@ class InputCounter extends LitElement {
         console.log("Decrement")
         this.counter--;
     }
-
 }
