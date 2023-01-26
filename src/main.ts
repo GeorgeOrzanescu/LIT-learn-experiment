@@ -1,1 +1,1 @@
-import "./elements/lit-component-question";
+import "./elements/lit-component-quiz";

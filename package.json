@@ -2,6 +2,9 @@
   "name": "LIT-learn-experiment",
   "version": "1.0.0",
   "dependencies": {
+    "@vaadin/button": "^23.3.5",
+    "@vaadin/checkbox": "^23.3.5",
+    "@vaadin/checkbox-group": "^23.3.5",
     "lit": "^2.5.0",
     "typescript": "^4.9.4"
   },
